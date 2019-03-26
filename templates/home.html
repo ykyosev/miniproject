@@ -1,0 +1,31 @@
+<DOCTYPE html>
+<html lang="en">
+	<head><title>Home page</title>
+	</head>
+<body>
+	<h1> Welcome to the website </h1>
+
+	<div style="height:500px; width:600px;" id="apixu-weather-widget-3">
+	</div><script  type='text/javascript' src='https://www.apixu.com/weather/widget.ashx?loc=2801268&wid=3&tu=2&div=apixu-weather-widget-3' async></script>
+	<noscript>
+	<a href="https://www.apixu.com/weather/q/london-city-of-london-greater-london-united-kingdom-2801268" alt="Hour by hour London, City of London, Greater London, United Kingdom weather">10 day hour by hour London, City of London, Greater London, United Kingdom weather</a>
+	</noscript>
+	<h2> Please choose from the below options </h2>
+	<h4> Current weather </h4>
+
+	<a href="/current"> Current Weather</a>
+	<h4>Weather forecast</h4>
+	<form action="/forecast" method = "post">
+	<h5> Location (Town): <input type = "text" name = "location"><h5><br>
+	<h5> Number of days to forecast for (1 to 5): <input type = "text" name = "days"><h5><br>
+	<button type = "submit" > Forecast
+	</form>
+
+
+
+
+	<!-- <a href="forecast.html"> Weather forecast</a> -->
+
+</body>
+</html>
+
