@@ -5,10 +5,6 @@ docker pull cassandra:latest
 docker run -p 9042:9042 --name cassandra -d cassandra:latest
 echo "Installing requirements"
 sudo pip install -U -r requirements.txt
-leafpad
-echo "Activating Flask"
-source "./venv/bin/activate"
-leafpad
 echo "Running python"
 python app.py
 exec bash
